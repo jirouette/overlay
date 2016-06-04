@@ -54,6 +54,7 @@ class MonsterCard extends Card
 	var attribute:MonsterAttribute;
 	var type:MonsterType;
 	var ability:Null<MonsterAbility>;
+	var faceup:Bool = true;
 
 	var ATK:Int;
 	var DEF:Int;

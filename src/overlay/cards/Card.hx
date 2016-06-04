@@ -2,11 +2,11 @@ package overlay.cards;
 
 class Card
 {
-	var name:String;
-	var setnumber:String;
-	var cardnumber:String;
-	var text:String;
-	var firstedition:Bool;
+	public var name(default, null):String;
+	public var setnumber(default, null):String;
+	public var cardnumber(default, null):String;
+	public var text(default, null):String;
+	public var firstedition(default, null):Bool;
 
 	public function new(name:String, ?text:Null<String>, ?setnumber:Null<String>, ?cardnumber:Null<String>, ?firstedition:Null<Bool>)
 	{

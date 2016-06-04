@@ -1,7 +1,7 @@
 import overlay.cards.MonsterCard;
-import overlay.cards.SpellCard;
-import overlay.cards.TrapCard;
 import overlay.cards.Deck;
+import overlay.Player;
+import overlay.fields.Field;
 
 class Main
 {
@@ -23,5 +23,18 @@ class Main
 		d.add(c);
 		d.shuffle();
 		trace(d);
+
+		var p = new Player("jr");
+		while(!p.hasLost)
+		{
+			p.lifepoints -= 500;
+			trace(p.lifepoints);
+		}
+		trace("LOSS");
+
+		var f = new Field();
+		f.getZone(MONSTER_ZONE, 2).available = false;
+		f.getZone(MONSTER_ZONE).card = c;
+		trace(f);
 	}
 }
