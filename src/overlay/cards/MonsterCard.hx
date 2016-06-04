@@ -157,8 +157,6 @@ class MonsterCard extends Card
 		t += "*" + level + ", ";
 		t += line() + ")" + numbers();
 		t += " " + ATK + "/" + DEF;
-		if (text != null)
-			t += " : \n" + text;
 		return t;
 	}
 }
