@@ -40,5 +40,18 @@ class Player
 		return this.lifepoints;
 	}
 
-
+	public function draw(nb:Int = 1)
+	{
+		while(nb-- > 0)
+		{
+			if (deck.length == 0)
+			{
+				hasLost = true;
+				return;
+			}
+			var c = deck.first();
+			hand.add(c);
+			deck.remove(c);
+		}
+	}
 }
