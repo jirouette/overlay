@@ -1,4 +1,7 @@
 import overlay.cards.MonsterCard;
+import overlay.cards.SpellCard;
+import overlay.cards.TrapCard;
+import overlay.cards.Deck;
 
 class Main
 {
@@ -16,6 +19,9 @@ class Main
 			"SDBE-EN005",
 			"21615956", 
 			true);
-		trace(c);
+		var d = new Deck(MAIN_DECK);
+		d.add(c);
+		d.shuffle();
+		trace(d);
 	}
 }
