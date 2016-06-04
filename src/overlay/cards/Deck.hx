@@ -57,18 +57,30 @@ class Deck extends List<Card>
 		var f = sys.io.File.read(file);
 		while (!f.eof())
 		{
-			var c = loadCard("data/cards/"+f.readLine()+".xml");
-			if (c != null)
-				add(c);
+			try
+			{
+				var c = loadCard("data/cards/"+f.readLine()+".xml");
+				if (c != null)
+					add(c);
+			}
+			catch(e:Dynamic)
+			{}
 		}
 		shuffle();
 	}
 
 	public function loadCard(file:String):Null<Card>
 	{
-		var f = sys.io.File.read(file);
-		var data = f.readAll();
-		return loadXML(data.toString());
+		try
+		{
+			var f = sys.io.File.read(file);
+			var data = f.readAll();
+			return loadXML(data.toString());
+		}
+		catch(e:Dynamic)
+		{
+			return null;
+		}
 	}
 
 	public function loadXML(data:String):Null<Card>
