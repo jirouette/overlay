@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Mystic Horseman</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEAST</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1300</atk>
+	<def>1550</def>
+	<text>
+<i>Half man and half horse, this <a href="/wiki/Monster_Card" title="Monster Card">monster</a> is known for its extreme speed.</i></text>
+	<setnumber>SDK-012</setnumber>
+	<cardnumber>68516705</cardnumber>
+	<firstedition>1</firstedition>
+</card>

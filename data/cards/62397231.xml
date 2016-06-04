@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Hyozanryu</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>LIGHT</attribute>
+	<ability></ability>
+	<level>7</level>
+	<atk>2100</atk>
+	<def>2800</def>
+	<text>
+<i>A <a href="/wiki/Dragon" title="Dragon">dragon</a> created from a massive diamond that sparkles with blinding <a href="/wiki/LIGHT" title="LIGHT">light</a>.</i></text>
+	<setnumber>SKE-011</setnumber>
+	<cardnumber>62397231</cardnumber>
+	<firstedition>1</firstedition>
+</card>

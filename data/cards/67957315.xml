@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Spirit Ryu</name>
+	<cardtype>MONSTER</cardtype>
+	<type>MONSTER</type>
+	<attribute>WIND</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1000</atk>
+	<def>1000</def>
+	<text>
+You can only <a href="/wiki/Activate" title="Activate">activate</a> this <a href="/wiki/Card_effect" title="Card effect">effect</a> during your <a href="/wiki/Battle_Step" title="Battle Step">Battle Step</a>, if this card <a href="/wiki/Battle" title="Battle">battles</a> during your <a href="/wiki/Turn" title="Turn">turn</a>. <a href="/wiki/Discard" title="Discard">Discard</a> 1 <a href="/wiki/Dragon" title="Dragon">Dragon</a>-<a href="/wiki/Type" title="Type">Type</a> <a href="/wiki/Monster_Card" title="Monster Card">monster</a> from your <a href="/wiki/Hand" title="Hand">hand</a> to the <a href="/wiki/Graveyard" title="Graveyard">Graveyard</a> to increase the <a href="/wiki/ATK" title="ATK">ATK</a> and <a href="/wiki/DEF" title="DEF">DEF</a> of this card by 1000 points until the <a href="/wiki/End_Step" title="End Step">End Step</a>.</text>
+	<setnumber>SKE-023</setnumber>
+	<cardnumber>67957315</cardnumber>
+	<firstedition>1</firstedition>
+</card>

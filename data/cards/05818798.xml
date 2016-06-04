@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Gazelle the King of Mythical Beasts</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEAST</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1500</atk>
+	<def>1200</def>
+	<text>
+<i>This <a href="/wiki/Monster_Card" title="Monster Card">monster</a> moves so fast that it looks like an illusion to mortal eyes.</i></text>
+	<setnumber>SYE-013</setnumber>
+	<cardnumber>05818798</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Unknown Warrior of Fiend</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>3</level>
+	<atk>1000</atk>
+	<def>500</def>
+	<text>
+<i>The speed of this <a href="/wiki/Warrior" title="Warrior">warrior</a> creates an intense vacuum that can slice through a <a href="/wiki/Monster_Card" title="Monster Card">monster</a>'s hide.</i></text>
+	<setnumber>SDK-017</setnumber>
+	<cardnumber>97360116</cardnumber>
+	<firstedition>1</firstedition>
+</card>

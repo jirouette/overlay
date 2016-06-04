@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Terra the Terrible</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1200</atk>
+	<def>1300</def>
+	<text>
+<i>Known as a swamp dweller, this creature is a minion of the <a href="/wiki/DARK" title="DARK">dark</a> forces.</i></text>
+	<setnumber>SDK-013</setnumber>
+	<cardnumber>63308047</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Uraby</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DINOSAUR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1500</atk>
+	<def>800</def>
+	<text>
+<i>Fast on its feet, this <a href="/wiki/Dinosaur" title="Dinosaur">dinosaur</a> rips enemies to shreds with its sharp claws.</i></text>
+	<setnumber>SDK-010</setnumber>
+	<cardnumber>01784619</cardnumber>
+	<firstedition>1</firstedition>
+</card>

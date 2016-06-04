@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Mystic Clown</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1500</atk>
+	<def>1000</def>
+	<text>
+<i>Nothing can stop the mad <a href="/wiki/Attack" title="Attack">attack</a> of this powerful creature.</i></text>
+	<setnumber>SDY-019</setnumber>
+	<cardnumber>47060154</cardnumber>
+	<firstedition>1</firstedition>
+</card>

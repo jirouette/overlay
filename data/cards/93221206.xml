@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Ancient Elf</name>
+	<cardtype>MONSTER</cardtype>
+	<type>SPELLCASTER</type>
+	<attribute>LIGHT</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1450</atk>
+	<def>1200</def>
+	<text>
+<i>This elf is rumored to have lived for thousands of years. He leads an army of spirits against his enemies.</i></text>
+	<setnumber>SDY-024</setnumber>
+	<cardnumber>93221206</cardnumber>
+	<firstedition>1</firstedition>
+</card>

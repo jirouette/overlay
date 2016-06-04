@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Magical Ghost</name>
+	<cardtype>MONSTER</cardtype>
+	<type>ZOMBIE</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1300</atk>
+	<def>1400</def>
+	<text>
+<i>This <a href="/wiki/Monster_Card" title="Monster Card">creature</a> casts a <a href="/wiki/Spell_Card" title="Spell Card">spell</a> of terror and confusion just before <a href="/wiki/Attack" title="Attack">attacking</a> its enemies.</i></text>
+	<setnumber>SDY-025</setnumber>
+	<cardnumber>46474915</cardnumber>
+	<firstedition>1</firstedition>
+</card>

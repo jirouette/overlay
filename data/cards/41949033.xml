@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Dark Assailant</name>
+	<cardtype>MONSTER</cardtype>
+	<type>ZOMBIE</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1200</atk>
+	<def>1200</def>
+	<text>
+<i>Armed with the Psycho Sword, this sinister assassin rules the bad land.</i></text>
+	<setnumber>SDK-015</setnumber>
+	<cardnumber>41949033</cardnumber>
+	<firstedition>1</firstedition>
+</card>

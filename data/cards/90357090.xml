@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Silver Fang</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEAST</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>3</level>
+	<atk>1200</atk>
+	<def>800</def>
+	<text>
+<i>A snow wolf that's beautiful to the eye, but absolutely vicious in battle.</i></text>
+	<setnumber>SDY-012</setnumber>
+	<cardnumber>90357090</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Red-Eyes B. Dragon</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>7</level>
+	<atk>2400</atk>
+	<def>2000</def>
+	<text>
+<i>A ferocious <a href="/wiki/Dragon" title="Dragon">dragon</a> with a <a href="/wiki/Inferno_Fire_Blast" title="Inferno Fire Blast">deadly attack</a>.</i></text>
+	<setnumber>SDJ-001</setnumber>
+	<cardnumber>74677422</cardnumber>
+	<firstedition>1</firstedition>
+</card>

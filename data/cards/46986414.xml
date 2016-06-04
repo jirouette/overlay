@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Dark Magician</name>
+	<cardtype>MONSTER</cardtype>
+	<type>SPELLCASTER</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>7</level>
+	<atk>2500</atk>
+	<def>2100</def>
+	<text>
+<i>The ultimate <a href="/wiki/Spellcaster" title="Spellcaster">wizard</a> in terms of <a href="/wiki/ATK" title="ATK">attack</a> and <a href="/wiki/DEF" title="DEF">defense</a>.</i></text>
+	<setnumber>SDY-006</setnumber>
+	<cardnumber>46986414</cardnumber>
+	<firstedition>1</firstedition>
+</card>

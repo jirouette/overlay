@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Destroyer Golem</name>
+	<cardtype>MONSTER</cardtype>
+	<type>ROCK</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1500</atk>
+	<def>1000</def>
+	<text>
+<i>A golem with a massive right hand for crushing its victims.</i></text>
+	<setnumber>SDK-028</setnumber>
+	<cardnumber>73481154</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Sorcerer of the Doomed</name>
+	<cardtype>MONSTER</cardtype>
+	<type>SPELLCASTER</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1450</atk>
+	<def>1200</def>
+	<text>
+<i>A slave of the <a href="/wiki/Dark" title="Dark" class="mw-redirect">dark</a> arts, this <a href="/wiki/Spellcaster" title="Spellcaster">sorcerer</a> is a master of life-extinguishing <a href="/wiki/Spell_Card" title="Spell Card">spells</a>.</i></text>
+	<setnumber>SDY-038</setnumber>
+	<cardnumber>49218300</cardnumber>
+	<firstedition>1</firstedition>
+</card>

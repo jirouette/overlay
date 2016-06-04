@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Kojikocy</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1500</atk>
+	<def>1200</def>
+	<text>
+<i>A man-hunter with powerful arms that can crush boulders.</i></text>
+	<setnumber>SDK-009</setnumber>
+	<cardnumber>01184620</cardnumber>
+	<firstedition>1</firstedition>
+</card>

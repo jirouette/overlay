@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Ansatsu</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>5</level>
+	<atk>1700</atk>
+	<def>1200</def>
+	<text>
+<i>A silent and deadly <a href="/wiki/Warrior" title="Warrior">warrior</a> specializing in assassinations.</i></text>
+	<setnumber>SDY-016</setnumber>
+	<cardnumber>48365709</cardnumber>
+	<firstedition>1</firstedition>
+</card>

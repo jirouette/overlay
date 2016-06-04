@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Red Archery Girl</name>
+	<cardtype>MONSTER</cardtype>
+	<type>AQUA</type>
+	<attribute>WATER</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1400</atk>
+	<def>1500</def>
+	<text>
+<i>A mermaid archer that hides in a protective shell, waiting for the right moment to strike.</i></text>
+	<setnumber>SDP-002</setnumber>
+	<cardnumber>65570596</cardnumber>
+	<firstedition>1</firstedition>
+</card>

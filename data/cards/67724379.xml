@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Koumori Dragon</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1500</atk>
+	<def>1200</def>
+	<text>
+<i>A vicious, fire-breathing dragon whose wicked flame corrupts the souls of its victims.</i></text>
+	<setnumber>SDK-006</setnumber>
+	<cardnumber>67724379</cardnumber>
+	<firstedition>1</firstedition>
+</card>

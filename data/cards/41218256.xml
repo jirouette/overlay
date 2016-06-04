@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Claw Reacher</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>3</level>
+	<atk>1000</atk>
+	<def>800</def>
+	<text>
+<i>Stretching arms and razor-sharp claws make this <a href="/wiki/Monster_Card" title="Monster Card">monster</a> a formidable opponent.</i></text>
+	<setnumber>SDY-018</setnumber>
+	<cardnumber>41218256</cardnumber>
+	<firstedition>1</firstedition>
+</card>

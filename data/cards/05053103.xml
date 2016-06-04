@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Battle Ox</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEASTWARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1700</atk>
+	<def>1000</def>
+	<text>
+<i>A <a href="/wiki/Monster_Card" title="Monster Card">monster</a> with tremendous <a href="/wiki/ATK" title="ATK">power</a>, it <a href="/wiki/Destroy" title="Destroy">destroys</a> enemies with a swing of its axe.</i></text>
+	<setnumber>SDK-005</setnumber>
+	<cardnumber>05053103</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Pale Beast</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEAST</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1500</atk>
+	<def>1200</def>
+	<text>
+<i>With skin tinged a bluish-white, this strange <a href="/wiki/Monster_Card" title="Monster Card">creature</a> is a fearsome sight to behold.</i></text>
+	<setnumber>SDK-031</setnumber>
+	<cardnumber>21263083</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Spirit of the Harp</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FAIRY</type>
+	<attribute>LIGHT</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>800</atk>
+	<def>2000</def>
+	<text>
+<i>A spirit that soothes the soul with the music of its heavenly harp.</i></text>
+	<setnumber>SDJ-004</setnumber>
+	<cardnumber>80770678</cardnumber>
+	<firstedition>1</firstedition>
+</card>

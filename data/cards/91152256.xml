@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Celtic Guardian</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1400</atk>
+	<def>1200</def>
+	<text>
+<i>An elf who learned to wield a sword, he baffles enemies with lightning-swift attacks.</i></text>
+	<setnumber>SDY-009</setnumber>
+	<cardnumber>91152256</cardnumber>
+	<firstedition>1</firstedition>
+</card>

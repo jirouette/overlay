@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Darkfire Soldier 1</name>
+	<cardtype>MONSTER</cardtype>
+	<type>PYRO</type>
+	<attribute>FIRE</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1700</atk>
+	<def>1150</def>
+	<text>
+<i>An explosive expert from a special elite force.</i></text>
+	<setnumber>SDJ-010</setnumber>
+	<cardnumber>05388481</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Rude Kaiser</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEASTWARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>5</level>
+	<atk>1800</atk>
+	<def>1600</def>
+	<text>
+<i>With an axe in each hand, this monster delivers heavy damage.</i></text>
+	<setnumber>SDK-027</setnumber>
+	<cardnumber>26378150</cardnumber>
+	<firstedition>1</firstedition>
+</card>

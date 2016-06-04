@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Opticlops</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1800</atk>
+	<def>1700</def>
+	<text>
+<i>A one-eyed giant that serves the "<a href="/wiki/Dark_Ruler_Ha_Des" title="Dark Ruler Ha Des">Dark Ruler Ha Des</a>", it <a href="/wiki/Attack" title="Attack">skewers</a> its enemies with its sharp horn, <a href="/wiki/Destroy" title="Destroy">shattering</a> them to pieces.</i></text>
+	<setnumber>SKE-012</setnumber>
+	<cardnumber>14531242</cardnumber>
+	<firstedition>1</firstedition>
+</card>

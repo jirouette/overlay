@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Summoned Skull</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>6</level>
+	<atk>2500</atk>
+	<def>1200</def>
+	<text>
+<i>A <a href="/wiki/Fiend" title="Fiend">fiend</a> with <a href="/wiki/Dark" title="Dark" class="mw-redirect">dark</a> powers for confusing the enemy. Among the Fiend-<a href="/wiki/Type" title="Type">Type</a> <a href="/wiki/Monster_Card" title="Monster Card">monsters</a>, this monster boasts considerable <a href="/wiki/ATK" title="ATK">force</a>.</i><br /><br />(This card is always treated as an "<a href="/wiki/Archfiend" title="Archfiend">Archfiend</a>" card.)</text>
+	<setnumber>SDY-004</setnumber>
+	<cardnumber>70781052</cardnumber>
+	<firstedition>1</firstedition>
+</card>

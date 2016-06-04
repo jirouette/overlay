@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Mystical Elf</name>
+	<cardtype>MONSTER</cardtype>
+	<type>SPELLCASTER</type>
+	<attribute>LIGHT</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>800</atk>
+	<def>2000</def>
+	<text>
+<i>A delicate elf that lacks <a href="/wiki/ATK" title="ATK">offense</a>, but has a terrific <a href="/wiki/DEF" title="DEF">defense</a> backed by <a href="/wiki/LIGHT" title="LIGHT">mystical</a> <a href="/wiki/Gift_of_the_Mystical_Elf" title="Gift of the Mystical Elf" class="mw-redirect">power</a>.</i></text>
+	<setnumber>SDY-001</setnumber>
+	<cardnumber>15025844</cardnumber>
+	<firstedition>1</firstedition>
+</card>

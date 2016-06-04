@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Baron of the Fiend Sword</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1550</atk>
+	<def>800</def>
+	<text>
+<i>An aristocrat who wields a sword possessed by a malicious spirit that preys on the weak.</i></text>
+	<setnumber>SDY-036</setnumber>
+	<cardnumber>86325596</cardnumber>
+	<firstedition>1</firstedition>
+</card>

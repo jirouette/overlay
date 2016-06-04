@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>The Dragon Dwelling in the Cave</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>WIND</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1300</atk>
+	<def>2000</def>
+	<text>
+<i>A huge dragon dwelling in a cave. It is horrible when it <a href="/wiki/Dragon%27s_Rage" title="Dragon's Rage">gets angry</a>, although it is usually quiet. It is said to preserve certain treasures.</i></text>
+	<setnumber>SKE-013</setnumber>
+	<cardnumber>93346024</cardnumber>
+	<firstedition>1</firstedition>
+</card>

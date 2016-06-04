@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Curse of Dragon</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>5</level>
+	<atk>2000</atk>
+	<def>1500</def>
+	<text>
+<i>A wicked <a href="/wiki/Dragon" title="Dragon">dragon</a> that taps into <a href="/wiki/Dark" title="Dark" class="mw-redirect">dark</a> forces to execute a powerful <a href="/wiki/Attack" title="Attack">attack</a>.</i></text>
+	<setnumber>SDY-008</setnumber>
+	<cardnumber>28279543</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Ryu-Kishin Powered</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1600</atk>
+	<def>1200</def>
+	<text>
+<i>A <a href="/wiki/Ryu-Kishin" title="Ryu-Kishin">gargoyle</a> enhanced by the powers of <a href="/wiki/DARK" title="DARK">darkness</a>. Very sharp talons make it a worthy opponent.</i></text>
+	<setnumber>SDK-024</setnumber>
+	<cardnumber>24611934</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Ryu-Ran</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>FIRE</attribute>
+	<ability></ability>
+	<level>7</level>
+	<atk>2200</atk>
+	<def>2600</def>
+	<text>
+<i>A vicious little <a href="/wiki/Dragon" title="Dragon">dragon</a> sheltered in an egg that looks deceptively harmless.</i></text>
+	<setnumber>SDP-003</setnumber>
+	<cardnumber>02964201</cardnumber>
+	<firstedition>1</firstedition>
+</card>

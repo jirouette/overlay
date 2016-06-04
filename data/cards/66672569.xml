@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Dragon Zombie</name>
+	<cardtype>MONSTER</cardtype>
+	<type>ZOMBIE</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>3</level>
+	<atk>1600</atk>
+	<def>0</def>
+	<text>
+<i>A <a href="/wiki/Crawling_Dragon" title="Crawling Dragon">dragon</a> revived by <a href="/wiki/Spellcaster" title="Spellcaster">sorcery</a>. Its breath is highly corrosive.</i></text>
+	<setnumber>SDY-014</setnumber>
+	<cardnumber>66672569</cardnumber>
+	<firstedition>1</firstedition>
+</card>

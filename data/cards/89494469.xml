@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Dark Titan of Terror</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1300</atk>
+	<def>1100</def>
+	<text>
+<i>A <a href="/wiki/Fiend" title="Fiend">fiend</a> said to dwell in the world of dreams, it <a href="/wiki/Attack" title="Attack">attacks</a> enemies in their sleep.</i></text>
+	<setnumber>SDK-014</setnumber>
+	<cardnumber>89494469</cardnumber>
+	<firstedition>1</firstedition>
+</card>

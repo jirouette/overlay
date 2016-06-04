@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Giant Soldier of Stone</name>
+	<cardtype>MONSTER</cardtype>
+	<type>ROCK</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>3</level>
+	<atk>1300</atk>
+	<def>2000</def>
+	<text>
+<i>A giant <a href="/wiki/Warrior" title="Warrior">warrior</a> made of <a href="/wiki/Rock" title="Rock">stone</a>. A punch from this <a href="/wiki/Monster_Card" title="Monster Card">creature</a> has <a href="/wiki/EARTH" title="EARTH">earth</a>-shaking results.</i></text>
+	<setnumber>SDY-013</setnumber>
+	<cardnumber>13039848</cardnumber>
+	<firstedition>1</firstedition>
+</card>

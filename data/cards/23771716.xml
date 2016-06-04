@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>7 Colored Fish</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FISH</type>
+	<attribute>WATER</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1800</atk>
+	<def>800</def>
+	<text>
+<i>A rare rainbow <a href="/wiki/Fish" title="Fish">fish</a> that has never been <a href="/wiki/Fish_and_Swaps" title="Fish and Swaps">caught</a> by mortal man.</i></text>
+	<setnumber>SDJ-008</setnumber>
+	<cardnumber>23771716</cardnumber>
+	<firstedition>1</firstedition>
+</card>

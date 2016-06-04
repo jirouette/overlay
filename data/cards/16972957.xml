@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Doma The Angel of Silence</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FAIRY</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>5</level>
+	<atk>1600</atk>
+	<def>1400</def>
+	<text>
+<i>This <a href="/wiki/Fairy" title="Fairy">fairy</a> rules over the end of existence.</i></text>
+	<setnumber>SDY-015</setnumber>
+	<cardnumber>16972957</cardnumber>
+	<firstedition>1</firstedition>
+</card>

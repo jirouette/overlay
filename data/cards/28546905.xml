@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Illusionist Faceless Mage</name>
+	<cardtype>MONSTER</cardtype>
+	<type>SPELLCASTER</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>5</level>
+	<atk>1200</atk>
+	<def>2200</def>
+	<text>
+<i>Manipulates enemy attacks with the power of illusion.</i></text>
+	<setnumber>SDP-004</setnumber>
+	<cardnumber>28546905</cardnumber>
+	<firstedition>1</firstedition>
+</card>

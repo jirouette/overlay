@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Armored Lizard</name>
+	<cardtype>MONSTER</cardtype>
+	<type>REPTILE</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1500</atk>
+	<def>1200</def>
+	<text>
+<i>A lizard with a very tough hide and a vicious bite.</i></text>
+	<setnumber>SDJ-009</setnumber>
+	<cardnumber>15480588</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Lord of D.</name>
+	<cardtype>MONSTER</cardtype>
+	<type>MONSTERS</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1200</atk>
+	<def>1100</def>
+	<text>
+<a href="/wiki/Dragon" title="Dragon">Dragon</a>-<a href="/wiki/Type" title="Type">Type</a> <a href="/wiki/Monster_Card" title="Monster Card">monsters</a> on the <a href="/wiki/Playing_Field" title="Playing Field" class="mw-redirect">field</a> cannot be <a href="/wiki/Target" title="Target">targeted</a> by <a href="/wiki/Card_effect" title="Card effect">card effects</a>.</text>
+	<setnumber>SDK-041</setnumber>
+	<cardnumber>17985575</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Judge Man</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>6</level>
+	<atk>2200</atk>
+	<def>1500</def>
+	<text>
+<i>This club-wielding warrior battles to the end and will never surrender.</i></text>
+	<setnumber>SDK-007</setnumber>
+	<cardnumber>30113682</cardnumber>
+	<firstedition>1</firstedition>
+</card>

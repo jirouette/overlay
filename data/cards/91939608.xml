@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Rogue Doll</name>
+	<cardtype>MONSTER</cardtype>
+	<type>SPELLCASTER</type>
+	<attribute>LIGHT</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1600</atk>
+	<def>1000</def>
+	<text>
+<i>A deadly doll gifted with mystical power, it is particularly powerful when attacking against dark forces.</i></text>
+	<setnumber>SDK-008</setnumber>
+	<cardnumber>91939608</cardnumber>
+	<firstedition>1</firstedition>
+</card>

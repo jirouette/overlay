@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Blue-Eyes White Dragon</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>LIGHT</attribute>
+	<ability></ability>
+	<level>8</level>
+	<atk>3000</atk>
+	<def>2500</def>
+	<text>
+<i>This legendary <a href="/wiki/Dragon" title="Dragon">dragon</a> is a powerful engine of <a href="/wiki/Burst_Stream_of_Destruction" title="Burst Stream of Destruction">destruction</a>. Virtually invincible, <a href="/wiki/Rule_of_3000_ATK_and_DEF" title="Rule of 3000 ATK and DEF">very few</a> have faced this awesome <a href="/wiki/Monster_Card" title="Monster Card">creature</a> and lived to tell the tale.</i></text>
+	<setnumber>SDK-001</setnumber>
+	<cardnumber>89631139</cardnumber>
+	<firstedition>1</firstedition>
+</card>

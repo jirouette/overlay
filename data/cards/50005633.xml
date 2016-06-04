@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Swordstalker</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>6</level>
+	<atk>2000</atk>
+	<def>1600</def>
+	<text>
+<i>A monster formed by the vengeful souls of those who passed away in battle.</i></text>
+	<setnumber>SDK-025</setnumber>
+	<cardnumber>50005633</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>NAME</name>
+	<cardtype>MONSTER</cardtype>
+	<type>TYPE</type>
+	<attribute>ATTRIBUTE</attribute>
+	<ability></ability>
+	<level>LEVEL</level>
+	<atk>ATK</atk>
+	<def>DEF</def>
+	<text>TEXT</text>
+	<setnumber>SETNUMBER</setnumber>
+	<cardnumber>CARDNUMBER</cardnumber>
+	<firstedition>1</firstedition>
+</card>

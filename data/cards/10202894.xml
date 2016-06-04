@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Skull Red Bird</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WINGEDBEAST</type>
+	<attribute>WIND</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1550</atk>
+	<def>1200</def>
+	<text>
+<i>This <a href="/wiki/Monster_Card" title="Monster Card">monster</a> swoops down and <a href="/wiki/Attack" title="Attack">attacks</a> with a rain of knives stored in its wings.</i></text>
+	<setnumber>SDK-029</setnumber>
+	<cardnumber>10202894</cardnumber>
+	<firstedition>1</firstedition>
+</card>

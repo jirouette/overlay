@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Island Turtle</name>
+	<cardtype>MONSTER</cardtype>
+	<type>AQUA</type>
+	<attribute>WATER</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1100</atk>
+	<def>2000</def>
+	<text>
+<i>A huge turtle that is often mistaken for an island.</i></text>
+	<setnumber>SDJ-005</setnumber>
+	<cardnumber>04042268</cardnumber>
+	<firstedition>1</firstedition>
+</card>

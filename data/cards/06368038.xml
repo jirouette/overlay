@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Gaia The Fierce Knight</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>7</level>
+	<atk>2300</atk>
+	<def>2100</def>
+	<text>
+<i>A <a href="/wiki/Warrior" title="Warrior">knight</a> whose horse travels faster than the <a href="/wiki/WIND" title="WIND">wind</a>. His <a href="/wiki/Spiral_Spear_Strike" title="Spiral Spear Strike">battle-charge</a> is a force to be reckoned with.</i></text>
+	<setnumber>SDY-007</setnumber>
+	<cardnumber>06368038</cardnumber>
+	<firstedition>1</firstedition>
+</card>

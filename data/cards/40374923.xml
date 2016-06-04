@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Mammoth Graveyard</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DINOSAUR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>3</level>
+	<atk>1200</atk>
+	<def>800</def>
+	<text>
+<i>A mammoth that protects the graves of its pack and is absolutely merciless when facing grave-robbers.</i></text>
+	<setnumber>SDY-010</setnumber>
+	<cardnumber>40374923</cardnumber>
+	<firstedition>1</firstedition>
+</card>

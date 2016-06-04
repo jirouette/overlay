@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Feral Imp</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1300</atk>
+	<def>1400</def>
+	<text>
+<i>A playful little <a href="/wiki/Fiend" title="Fiend">fiend</a> that lurks in the dark, waiting to <a href="/wiki/Attack" title="Attack">attack</a> an unwary enemy.</i></text>
+	<setnumber>SDY-002</setnumber>
+	<cardnumber>41392891</cardnumber>
+	<firstedition>1</firstedition>
+</card>

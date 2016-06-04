@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Baby Dragon</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>WIND</attribute>
+	<ability></ability>
+	<level>3</level>
+	<atk>1200</atk>
+	<def>700</def>
+	<text>
+<i>Much more than just a child, this <a href="/wiki/Dragon" title="Dragon">dragon</a> is gifted with <a href="/wiki/Thousand_Dragon" title="Thousand Dragon">untapped power</a>.</i></text>
+	<setnumber>SDJ-003</setnumber>
+	<cardnumber>88819587</cardnumber>
+	<firstedition>1</firstedition>
+</card>

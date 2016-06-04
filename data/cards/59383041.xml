@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Toon Alligator</name>
+	<cardtype>MONSTER</cardtype>
+	<type>REPTILE</type>
+	<attribute>WATER</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>800</atk>
+	<def>1600</def>
+	<text>
+<i>An <a href="/wiki/Reptile" title="Reptile">alligator</a> <a href="/wiki/Monster_Card" title="Monster Card">monster</a> straight from the <a href="/wiki/Toon" title="Toon">cartoons</a>.</i></text>
+	<setnumber>SDP-009</setnumber>
+	<cardnumber>59383041</cardnumber>
+	<firstedition>1</firstedition>
+</card>

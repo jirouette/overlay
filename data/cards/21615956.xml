@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Flamvell Guard</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>FIRE</attribute>
+	<ability>TUNER</ability>
+	<level>1</level>
+	<atk>100</atk>
+	<def>2000</def>
+	<text>A Flamvell guardian who commands fire with his will. His magma-hot barrier protects his troops from intruders.</text>
+	<setnumber>SKE-001</setnumber>
+	<cardnumber>21615956</cardnumber>
+	<firstedition>1</firstedition>
+</card>

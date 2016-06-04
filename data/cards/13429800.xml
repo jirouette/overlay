@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Great White</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FISH</type>
+	<attribute>WATER</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1600</atk>
+	<def>800</def>
+	<text>
+<i>A giant white shark with razor-sharp teeth.</i></text>
+	<setnumber>SDY-011</setnumber>
+	<cardnumber>13429800</cardnumber>
+	<firstedition>1</firstedition>
+</card>

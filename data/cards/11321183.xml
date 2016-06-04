@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Dark Blade</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1800</atk>
+	<def>1500</def>
+	<text>
+<i>They say he is a <a href="/wiki/Dragon" title="Dragon">dragon</a>-<a href="/wiki/Pitch-Dark_Dragon" title="Pitch-Dark Dragon">manipulating</a> <a href="/wiki/Warrior" title="Warrior">warrior</a> from the dark world. His <a href="/wiki/Attack" title="Attack">attack</a> is tremendous, using his great swords with vicious power.</i></text>
+	<setnumber>SYE-015</setnumber>
+	<cardnumber>11321183</cardnumber>
+	<firstedition>1</firstedition>
+</card>

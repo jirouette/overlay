@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Ogre of the Black Shadow</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEASTWARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1200</atk>
+	<def>1400</def>
+	<text>
+<i>An <a href="/wiki/Fiend" title="Fiend">ogre</a> possessed by the powers of the <a href="/wiki/DARK" title="DARK">dark</a>. Few can withstand its rapid charge.</i></text>
+	<setnumber>SDK-019</setnumber>
+	<cardnumber>45121025</cardnumber>
+	<firstedition>1</firstedition>
+</card>

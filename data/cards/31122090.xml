@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Gyakutenno Megami</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FAIRY</type>
+	<attribute>LIGHT</attribute>
+	<ability></ability>
+	<level>6</level>
+	<atk>1800</atk>
+	<def>2000</def>
+	<text>
+<i>This <a href="/wiki/Fairy" title="Fairy">fairy</a> uses her mystical power to protect the weak and provide spiritual support.</i></text>
+	<setnumber>SDK-011</setnumber>
+	<cardnumber>31122090</cardnumber>
+	<firstedition>1</firstedition>
+</card>

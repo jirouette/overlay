@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Man-Eating Treasure Chest</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1600</atk>
+	<def>1000</def>
+	<text>
+<i>A monster disguised as a treasure chest that is known to attack the unwary adventurer.</i></text>
+	<setnumber>SDY-037</setnumber>
+	<cardnumber>13723605</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Luster Dragon 2</name>
+	<cardtype>MONSTER</cardtype>
+	<type>DRAGON</type>
+	<attribute>WIND</attribute>
+	<ability></ability>
+	<level>6</level>
+	<atk>2400</atk>
+	<def>1400</def>
+	<text>
+<i>This <a href="/wiki/Dragon" title="Dragon">dragon</a> feeds on emerald. Enchanted by this monster even when <a href="/wiki/Attack" title="Attack">attacked</a>, few people live to tell of its beauty.</i></text>
+	<setnumber>SKE-014</setnumber>
+	<cardnumber>17658803</cardnumber>
+	<firstedition>1</firstedition>
+</card>

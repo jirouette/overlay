@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>D. Human</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1300</atk>
+	<def>1100</def>
+	<text>
+<i>Gifted with the power of <a href="/wiki/Dragon" title="Dragon">dragons</a>, this <a href="/wiki/Warrior" title="Warrior">warrior</a> wields a sword created from a dragon's fang.</i></text>
+	<setnumber>SDK-030</setnumber>
+	<cardnumber>81057959</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Masaki the Legendary Swordsman</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1100</atk>
+	<def>1100</def>
+	<text>
+<i>Legendary swordmaster Masaki is a veteran of over 100 battles.</i></text>
+	<setnumber>SDJ-007</setnumber>
+	<cardnumber>44287299</cardnumber>
+	<firstedition>1</firstedition>
+</card>

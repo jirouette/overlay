@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>La Jinn the Mystical Genie of the Lamp</name>
+	<cardtype>MONSTER</cardtype>
+	<type>FIEND</type>
+	<attribute>DARK</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1800</atk>
+	<def>1000</def>
+	<text>
+<i>A genie of the <a href="/wiki/Ancient_Lamp" title="Ancient Lamp">lamp</a> that is at the beck and call of its master.</i></text>
+	<setnumber>SDK-026</setnumber>
+	<cardnumber>97590747</cardnumber>
+	<firstedition>1</firstedition>
+</card>

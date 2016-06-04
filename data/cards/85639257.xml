@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Aqua Madoor</name>
+	<cardtype>MONSTER</cardtype>
+	<type>SPELLCASTER</type>
+	<attribute>WATER</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1200</atk>
+	<def>2000</def>
+	<text>
+<i>A wizard of the waters that conjures a liquid wall to crush any enemies that oppose him.</i></text>
+	<setnumber>SDP-008</setnumber>
+	<cardnumber>85639257</cardnumber>
+	<firstedition>1</firstedition>
+</card>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Beaver Warrior</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEASTWARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1200</atk>
+	<def>1500</def>
+	<text>
+<i>What this creature lacks in size it makes up for in <a href="/wiki/DEF" title="DEF">defense</a> when battling in the <a href="/wiki/Sogen" title="Sogen">prairie</a>.</i></text>
+	<setnumber>SDY-005</setnumber>
+	<cardnumber>32452818</cardnumber>
+	<firstedition>1</firstedition>
+</card>

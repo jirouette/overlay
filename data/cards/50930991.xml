@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Neo the Magic Swordsman</name>
+	<cardtype>MONSTER</cardtype>
+	<type>SPELLCASTER</type>
+	<attribute>LIGHT</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1700</atk>
+	<def>1000</def>
+	<text>
+<i>A dimensional drifter who not only practices <a href="/wiki/Spellcaster" title="Spellcaster">sorcery</a>, but is also a sword and martial arts master.</i></text>
+	<setnumber>SDY-035</setnumber>
+	<cardnumber>50930991</cardnumber>
+	<firstedition>1</firstedition>
+</card>

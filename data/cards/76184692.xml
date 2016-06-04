@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Hitotsu-Me Giant</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEASTWARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1200</atk>
+	<def>1000</def>
+	<text>
+<i>A one-eyed behemoth with thick, powerful arms made for delivering punishing blows.</i></text>
+	<setnumber>SDK-002</setnumber>
+	<cardnumber>76184692</cardnumber>
+	<firstedition>1</firstedition>
+</card>

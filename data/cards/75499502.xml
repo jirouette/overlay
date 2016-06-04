@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Master &amp; Expert</name>
+	<cardtype>MONSTER</cardtype>
+	<type>BEAST</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1200</atk>
+	<def>1000</def>
+	<text>
+<i>A deadly duo consisting of a <a href="/wiki/Beast" title="Beast">beast</a> master and its loyal servant.</i></text>
+	<setnumber>SDK-016</setnumber>
+	<cardnumber>75499502</cardnumber>
+	<firstedition>1</firstedition>
+</card>

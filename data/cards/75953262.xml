@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Warrior Dai Grepher</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1700</atk>
+	<def>1600</def>
+	<text>
+<i>The <a href="/wiki/Warrior" title="Warrior">warrior</a> who can <a href="/wiki/Control" title="Control">manipulate</a> <a href="/wiki/Dragon" title="Dragon">dragons</a>. Nobody knows his mysterious past.</i></text>
+	<setnumber>SYE-014</setnumber>
+	<cardnumber>75953262</cardnumber>
+	<firstedition>1</firstedition>
+</card>

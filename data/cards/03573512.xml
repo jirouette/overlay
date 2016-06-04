@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Swordsman of Landstar</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WARRIOR</type>
+	<attribute>EARTH</attribute>
+	<ability></ability>
+	<level>3</level>
+	<atk>500</atk>
+	<def>1200</def>
+	<text>
+<i>An amateur with a sword, this fairy warrior relies on its mysterious powers.</i></text>
+	<setnumber>SDJ-002</setnumber>
+	<cardnumber>03573512</cardnumber>
+	<firstedition>1</firstedition>
+</card>

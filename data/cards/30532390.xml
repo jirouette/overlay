@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card>
+	<name>Sky Scout</name>
+	<cardtype>MONSTER</cardtype>
+	<type>WINGEDBEAST</type>
+	<attribute>WIND</attribute>
+	<ability></ability>
+	<level>4</level>
+	<atk>1800</atk>
+	<def>600</def>
+	<text>
+<i>With eyes like a hawk and a flying speed exceeding Mach 5, this <a href="/wiki/Monster_Card" title="Monster Card">monster</a> is a master of the sky.</i></text>
+	<setnumber>SDJ-011</setnumber>
+	<cardnumber>30532390</cardnumber>
+	<firstedition>1</firstedition>
+</card>
