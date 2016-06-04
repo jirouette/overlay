@@ -1,0 +1,4 @@
+-cp src
+-main Main
+-neko bin/Overlay.n
+-cmd "neko bin/Overlay.n"
