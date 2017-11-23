@@ -1,46 +1,23 @@
 package overlay.cards;
 
 import overlay.cards.Card;
-
-enum SpellType
-{
-	NORMAL_SPELL;
-	CONTINUOUS_SPELL;
-	EQUIP_SPELL;
-	QUICKPLAY_SPELL;
-	FIELD_SPELL;
-	RITUAL_SPELL;
-}
+import overlay.cards.specifications.Spell;
 
 class SpellCard extends Card
 {
+	var type:Spell;
 
-	var type:SpellType;
-
-	public function new(name:String, type:SpellType, ?text:Null<String>, ?setnumber:Null<String>, ?cardnumber:Null<String>, ?firstedition:Null<Bool>)
+	public function new(name:String, type:SpellType, ?text:Null<String>)
 	{
-		super(name, text, setnumber, cardnumber, firstedition);
-		this.type = type;
-	}
-
-	static public function typestring(t:SpellType)
-	{
-		return switch(t)
-		{
-			case NORMAL_SPELL: "Normal Spell";
-			case CONTINUOUS_SPELL: "Continuous Spell";
-			case EQUIP_SPELL: "Equip Spell";
-			case QUICKPLAY_SPELL: "Quick-Play Spell";
-			case FIELD_SPELL: "Field Spell";
-			case RITUAL_SPELL: "Ritual Spell";
-		}
+		super(name, text);
+		this.type = new Spell(type);
 	}
 
 	public override function toString():String
 	{
-		var t = name + " (" + SpellCard.typestring(type) + ")" + numbers();
-		if (text != null)
-			t += " : \n" + text;
+		var t = Std.string(name) + " (" + Std.string(type) + ")";
+		if (text.value != null)
+			t += " : \n" + Std.string(text);
 		return t;
 	}
 }

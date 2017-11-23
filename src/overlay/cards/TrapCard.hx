@@ -1,39 +1,23 @@
 package overlay.cards;
 
 import overlay.cards.Card;
-
-enum TrapType
-{
-	NORMAL_TRAP;
-	CONTINUOUS_TRAP;
-	COUNTER_TRAP;
-}
+import overlay.cards.specifications.Trap;
 
 class TrapCard extends Card
 {
-	var type:TrapType;
+	var type:Trap;
 
-	public function new(name:String, type:TrapType, ?text:Null<String>, ?setnumber:Null<String>, ?cardnumber:Null<String>, ?firstedition:Null<Bool>)
+	public function new(name:String, type:TrapType, ?text:Null<String>)
 	{
-		super(name, text, setnumber, cardnumber, firstedition);
-		this.type = type;
-	}
-
-	static public function typestring(t:TrapType)
-	{
-		return switch(t)
-		{
-			case NORMAL_TRAP: "Normal Trap";
-			case CONTINUOUS_TRAP: "Continuous Trap";
-			case COUNTER_TRAP: "Counter Trap";
-		}
+		super(name, text);
+		this.type = new Trap(type);
 	}
 
 	public override function toString():String
 	{
-		var t = name + " (" + TrapCard.typestring(type) + ")" + numbers();
-		if (text != null)
-			t += " : \n" + text;
+		var t = Std.string(name) + " (" + Std.string(type) + ")";
+		if (text.value != null)
+			t += " : \n" + Std.string(text);
 		return t;
 	}
 }

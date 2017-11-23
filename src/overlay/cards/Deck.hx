@@ -6,6 +6,13 @@ import overlay.cards.MonsterCard;
 import overlay.cards.TrapCard;
 import overlay.cards.SpellCard;
 
+import overlay.cards.specifications.Attribute;
+import overlay.cards.specifications.Type;
+import overlay.cards.specifications.Ability;
+import overlay.cards.specifications.Level;
+import overlay.cards.specifications.Point;
+import overlay.cards.specifications.Spell;
+import overlay.cards.specifications.Trap;
 
 enum DeckType
 {
@@ -101,13 +108,13 @@ class Deck extends List<Card>
 					var type = Reflect.field(SpellType, x.elementsNamed("type").next().firstChild().nodeValue + '_SPELL');
 					if (type == null)
 						type = NORMAL_SPELL;
-					return new SpellCard(name, type, text, setnumber, cardnumber, firstedition);
+					return new SpellCard(name, type, text);
 
 				case "TRAP":
 					var type = Reflect.field(TrapType, x.elementsNamed("type").next().firstChild().nodeValue + '_TRAP');
 					if (type == null)
 						type = NORMAL_TRAP;
-					return new TrapCard(name, type, text, setnumber, cardnumber, firstedition);
+					return new TrapCard(name, type, text);
 
 				case "MONSTER":
 					var type = Reflect.field(MonsterType, x.elementsNamed("type").next().firstChild().nodeValue + '_TYPE');
@@ -120,15 +127,7 @@ class Deck extends List<Card>
 						type = WARRIOR_TYPE;
 					if (attribute == null)
 						attribute = EARTH_ATTRIBUTE;
-					if (level < 0)
-						level = 1;
-					if (level > 12)
-						level = 12;
-					if (ATK < 0)
-						ATK = 0;
-					if (DEF < 0)
-						DEF = 0;
-					return new MonsterCard(name, type, attribute, ability, level, ATK, DEF, text, setnumber, cardnumber, firstedition);
+					return new MonsterCard(name, type, attribute, ability, level, ATK, DEF, text);
 
 				default:
 					return null;
