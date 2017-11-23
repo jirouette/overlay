@@ -54,4 +54,22 @@ class MonsterCard extends Card
 		t += " " + Std.string(ATK) + "/" + Std.string(DEF);
 		return t;
 	}
+
+	public static override function fromXML(node:Xml):Null<Card>
+	{
+		var name = node.elementsNamed("name").next().firstChild().nodeValue;
+		var text = node.elementsNamed("text").next().firstChild().nodeValue;
+
+		var type = Reflect.field(MonsterType, node.elementsNamed("type").next().firstChild().nodeValue + '_TYPE');
+		var attribute = Reflect.field(MonsterAttribute, node.elementsNamed("attribute").next().firstChild().nodeValue + '_ATTRIBUTE');
+		var ability = Reflect.field(MonsterAbility, node.elementsNamed("ability").next().firstChild().nodeValue + '_ABILITY');
+		var level = Std.parseInt(node.elementsNamed("level").next().firstChild().nodeValue);
+		var ATK = Std.parseInt(node.elementsNamed("atk").next().firstChild().nodeValue);
+		var DEF = Std.parseInt(node.elementsNamed("def").next().firstChild().nodeValue);
+		if (type == null)
+			type = WARRIOR_TYPE;
+		if (attribute == null)
+			attribute = EARTH_ATTRIBUTE;
+		return new MonsterCard(name, type, attribute, ability, level, ATK, DEF, text);
+	}
 }

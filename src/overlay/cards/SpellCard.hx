@@ -20,4 +20,15 @@ class SpellCard extends Card
 			t += " : \n" + Std.string(text);
 		return t;
 	}
+
+	public static override function fromXML(node:Xml):Null<Card>
+	{
+		var name = node.elementsNamed("name").next().firstChild().nodeValue;
+		var text = node.elementsNamed("text").next().firstChild().nodeValue;
+
+		var type = Reflect.field(SpellType, node.elementsNamed("type").next().firstChild().nodeValue + '_SPELL');
+		if (type == null)
+			type = NORMAL_SPELL;
+		return new SpellCard(name, type, text);
+	}
 }

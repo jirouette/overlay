@@ -20,4 +20,15 @@ class TrapCard extends Card
 			t += " : \n" + Std.string(text);
 		return t;
 	}
+
+	public static override function fromXML(node:Xml):Null<Card>
+	{
+		var name = node.elementsNamed("name").next().firstChild().nodeValue;
+		var text = node.elementsNamed("text").next().firstChild().nodeValue;
+
+		var type = Reflect.field(TrapType, node.elementsNamed("type").next().firstChild().nodeValue + '_TRAP');
+		if (type == null)
+			type = NORMAL_TRAP;
+		return new TrapCard(name, type, text);
+	}
 }
