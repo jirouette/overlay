@@ -5,12 +5,17 @@ import Type;
 
 class Field
 {
-	public var zones:Array<Zone> = [
-		new Zone(FIELD_ZONE),
-		new Zone(PENDULUM_ZONE),new Zone(PENDULUM_ZONE),
+	public var zones:Array<Null<Zone>> = [
 		new Zone(MONSTER_ZONE),new Zone(MONSTER_ZONE),new Zone(MONSTER_ZONE),new Zone(MONSTER_ZONE),new Zone(MONSTER_ZONE),
 		new Zone(SPELLTRAP_ZONE),new Zone(SPELLTRAP_ZONE),new Zone(SPELLTRAP_ZONE),new Zone(SPELLTRAP_ZONE),new Zone(SPELLTRAP_ZONE),
 	];
+
+	public var outer_zones:Array<Null<Zone>> = [
+		new Zone(FIELD_ZONE),
+		new Zone(PENDULUM_ZONE),new Zone(PENDULUM_ZONE),
+	];
+
+	public var width = 5; // max 5 zones in a row
 
 	public function new()
 	{}
@@ -28,18 +33,15 @@ class Field
 
 	public function toString():String
 	{
-		var type:ZoneType = if (zones.length == 0) FIELD_ZONE else zones[0].type;
 		var t = "";
-
-		for (z in zones)
+		var i = 0;
+		for (zone in zones)
 		{
-			if (!Type.enumEq(type, z.type))
+			if (width % i++ == 0)
 				t += "\n";
 			else if (t.length > 0)
 				t += " | ";
-			t += z;
-
-			type = z.type;
+			t += Std.string(zone);
 		}
 		return if (t.length == 0) "field with empty zone" else t;
 	}
