@@ -1,6 +1,6 @@
 package overlay.cards.specifications;
 
-import overlay.cards.specifications.Specification;
+import overlay.util.Specification;
 
 class Scale extends Specification<Int>
 {

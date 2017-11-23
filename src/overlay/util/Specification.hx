@@ -1,4 +1,4 @@
-package overlay.cards.specifications;
+package overlay.util;
 
 class Specification<T>
 {
