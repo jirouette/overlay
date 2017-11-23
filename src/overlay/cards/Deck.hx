@@ -6,47 +6,18 @@ import overlay.cards.MonsterCard;
 import overlay.cards.TrapCard;
 import overlay.cards.SpellCard;
 
-import overlay.cards.specifications.Attribute;
-import overlay.cards.specifications.Type;
-import overlay.cards.specifications.Ability;
-import overlay.cards.specifications.Level;
-import overlay.cards.specifications.Point;
-import overlay.cards.specifications.Spell;
-import overlay.cards.specifications.Trap;
-
-enum DeckType
-{
-	MAIN_DECK;
-	EXTRA_DECK;
-	SIDE_DECK;
-	GRAVEYARD_DECK;
-	BANISHED_DECK;
-	HAND_DECK;
-}
+import overlay.cards.specifications.CardDeck;
 
 class Deck extends List<Card>
 {
 	var isPublic:Bool = false;
-	var type:DeckType;
+	var type:CardDeck;
 
 	public function new(type:DeckType, isPublic:Bool = false)
 	{
 		super();
-		this.type = type;
+		this.type = new CardDeck(type);
 		this.isPublic = isPublic;
-	}
-
-	static public function typestring(t:DeckType)
-	{
-		return switch(t)
-		{
-			case MAIN_DECK: "Main Deck";
-			case EXTRA_DECK: "Extra Deck";
-			case SIDE_DECK: "Side Deck";
-			case GRAVEYARD_DECK: "Graveyard";
-			case BANISHED_DECK: "Banish Zone";
-			case HAND_DECK: "Hand";
-		}
 	}
 
 	public function shuffle()
@@ -81,61 +52,17 @@ class Deck extends List<Card>
 		try
 		{
 			var f = sys.io.File.read(file);
-			var data = f.readAll();
-			return loadXML(data.toString());
-		}
-		catch(e:Dynamic)
-		{
-			return null;
-		}
-	}
-
-	public function loadXML(data:String):Null<Card>
-	{
-		var x = Xml.parse(data).firstElement();
-		var c:Null<Card>;
-		try
-		{
-			var name = x.elementsNamed("name").next().firstChild().nodeValue;
-			var setnumber = x.elementsNamed("setnumber").next().firstChild().nodeValue;
-			var cardnumber = x.elementsNamed("cardnumber").next().firstChild().nodeValue;
-			var firstedition = x.elementsNamed("firstedition").next().firstChild().nodeValue == "1";
-			var text = x.elementsNamed("text").next().firstChild().nodeValue;
-
-			switch(x.elementsNamed("cardtype").next().firstChild().nodeValue)
+			var node = Xml.parse(f.readAll().toString()).firstElement();
+			return switch(node.elementsNamed("cardtype").next().firstChild().nodeValue)
 			{
-				case "SPELL":
-					var type = Reflect.field(SpellType, x.elementsNamed("type").next().firstChild().nodeValue + '_SPELL');
-					if (type == null)
-						type = NORMAL_SPELL;
-					return new SpellCard(name, type, text);
-
-				case "TRAP":
-					var type = Reflect.field(TrapType, x.elementsNamed("type").next().firstChild().nodeValue + '_TRAP');
-					if (type == null)
-						type = NORMAL_TRAP;
-					return new TrapCard(name, type, text);
-
-				case "MONSTER":
-					var type = Reflect.field(MonsterType, x.elementsNamed("type").next().firstChild().nodeValue + '_TYPE');
-					var attribute = Reflect.field(MonsterAttribute, x.elementsNamed("attribute").next().firstChild().nodeValue + '_ATTRIBUTE');
-					var ability = Reflect.field(MonsterAbility, x.elementsNamed("ability").next().firstChild().nodeValue + '_ABILITY');
-					var level = Std.parseInt(x.elementsNamed("level").next().firstChild().nodeValue);
-					var ATK = Std.parseInt(x.elementsNamed("atk").next().firstChild().nodeValue);
-					var DEF = Std.parseInt(x.elementsNamed("def").next().firstChild().nodeValue);
-					if (type == null)
-						type = WARRIOR_TYPE;
-					if (attribute == null)
-						attribute = EARTH_ATTRIBUTE;
-					return new MonsterCard(name, type, attribute, ability, level, ATK, DEF, text);
-
-				default:
-					return null;
+				case "SPELL": SpellCard.fromXML(node);
+				case "TRAP": TrapCard.fromXML(node);
+				case "MONSTER": MonsterCard.fromXML(node);
+				default: Card.fromXML(node);
 			}
 		}
 		catch(e:Dynamic)
 		{
-			trace(e);
 			return null;
 		}
 	}
