@@ -1,4 +1,4 @@
-package overlay.cards.specifications;
+package overlay.fields.specifications;
 
 import overlay.util.Specification;
 

@@ -1,4 +1,4 @@
-package overlay.cards.specifications;
+package overlay.fields.specifications;
 
 import overlay.util.Specification;
 
@@ -19,6 +19,9 @@ class Position extends Specification<ZonePosition>
 		{
 			case ATK_POSITION: "Attack position";
 			case DEF_POSITION: "Defense position";
+			case FACEDOWN_ATK_POSITION: "Face-down position";
+			case FACEDOWN_DEF_POSITION: "Face-down defense position";
+			case UNAVAILABLE: "Unavailable";
 		}
 	}
 }

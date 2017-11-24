@@ -10,10 +10,10 @@ class Zone
 	public var type(default, null):ZoneType;
 	public var position(default, null):Position;
 
-	public function new(type:ZoneName, ?position:PositionType = ATK_POSITION)
+	public function new(type:ZoneName, ?position:ZonePosition)
 	{
 		this.type = new ZoneType(type);
-		this.position = new Position(position);
+		this.position = new Position(if (position == null) ATK_POSITION else position);
 	}
 
 	public function toString():String
