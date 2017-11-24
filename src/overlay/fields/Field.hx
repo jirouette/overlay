@@ -3,35 +3,17 @@ package overlay.fields;
 import overlay.fields.Zone;
 import Type;
 
-class Field
+import overlay.fields.FieldSet;
+
+class Field extends FieldSet
 {
-	public var zones:Array<Null<Zone>> = [
-		new Zone(MONSTER_ZONE),new Zone(MONSTER_ZONE),new Zone(MONSTER_ZONE),new Zone(MONSTER_ZONE),new Zone(MONSTER_ZONE),
-		new Zone(SPELLTRAP_ZONE),new Zone(SPELLTRAP_ZONE),new Zone(SPELLTRAP_ZONE),new Zone(SPELLTRAP_ZONE),new Zone(SPELLTRAP_ZONE),
-	];
-
-	public var outer_zones:Array<Null<Zone>> = [
-		new Zone(FIELD_ZONE),
-		new Zone(PENDULUM_ZONE),new Zone(PENDULUM_ZONE),
-	];
-
-	public var width = 5; // max 5 zones in a row
-
-	public function new()
-	{}
-
-	public function getZone(type:ZoneType, index:Int = -1, available:Bool = true):Null<Zone>
+	public function new(?rule:RuleName)
 	{
-		var x = 0;
-		for (z in zones)
-		{
-			if (Type.enumEq(z.type, type) && (index == -1 || x++ == index))
-				return z;
-		}
-		return null;
+		var ruleset = FieldSet.fromRuleName(if (rule == null) NORMAL_RULE else rule);
+		super(ruleset.zones, ruleset.outer_zones, ruleset.width, ruleset.name);
 	}
 
-	public function toString():String
+	public override function toString():String
 	{
 		var t = "";
 		var i = 0;
