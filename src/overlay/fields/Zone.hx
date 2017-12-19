@@ -7,8 +7,8 @@ import overlay.fields.specifications.ZoneType;
 class Zone
 {
 	public var card:Null<Card>;
+	public var position:Position;
 	public var type(default, null):ZoneType;
-	public var position(default, null):Position;
 
 	public function new(type:ZoneName, ?position:ZonePosition)
 	{
@@ -18,8 +18,8 @@ class Zone
 
 	public function toString():String
 	{
-		if (card != null)
-			return card.name + " (" + Std.string(position) + ")";
-		return Std.string(type) + " (" + Std.string(position) + ")";
+		if (this.card != null)
+			return this.card.name + " (" + Std.string(this.position) + ")";
+		return Std.string(this.type) + " (" + Std.string(this.position) + ")";
 	}
 }
