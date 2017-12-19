@@ -1,5 +1,6 @@
 -cp src
 -main Main
 -lib random
+-lib thx.text
 -neko bin/Overlay.n
 -cmd "neko bin/Overlay.n"

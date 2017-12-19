@@ -1,5 +1,6 @@
 package overlay.fields;
 
+import thx.text.Table;
 import overlay.fields.Zone;
 import Type;
 
@@ -15,16 +16,23 @@ class Field extends FieldSet
 
 	public override function toString():String
 	{
-		var t = "";
-		var i = 0;
-		for (zone in zones)
+		var zones:Array<Array<Dynamic>> = [[for (i in 0...this.width) "Column #"+(i+1)]];
+		for(i in 0...this.zones.length)
 		{
-			if (width % i++ == 0)
-				t += "\n";
-			else if (t.length > 0)
-				t += " | ";
-			t += Std.string(zone);
+			if (i%this.width == 0)
+				zones.push([]);
+			zones[zones.length-1].push(this.zones[i]);
 		}
-		return if (t.length == 0) "field with empty zone" else t;
+
+		var table = Table.fromData(zones);
+		table.ensureRow(0).style.setAlign(Center);
+
+		for (i in 0...Std.int(this.zones.length/this.width))
+		{
+			table.ensureRow(i+1).style.type = Body;
+			table.ensureRow(i+1).style.setAlign(Center);
+		}
+
+		return table.toString();
 	}
 }

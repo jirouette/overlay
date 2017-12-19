@@ -7,9 +7,9 @@ Overlay
 
 ### Build
 
-You'll need **Haxe** and the **random** haxe library.
+You'll need **Haxe**, the **random** and **thx.text** haxe libraries.
 ```bash
-haxelib install random # first run if you don't have it
+for lib in random thx.text; do haxelib install $lib; done # first run if you don't have them
 haxe make.hxml # build
 ```
 
