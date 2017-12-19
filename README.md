@@ -3,6 +3,12 @@ Overlay
 
 **Overlay** is a *Yu-Gi-Oh! Trading Card Game* engine made with **Haxe**
 
+## Screenshots
+
+This project is under development. Any screenshot displayed here has been taken during tests.
+
+![screenshot 2017/12/19](screenshots/20171219.png)
+
 ## Usage
 
 ### Build
