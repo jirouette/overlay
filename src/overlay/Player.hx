@@ -1,11 +1,12 @@
 package overlay;
 
 import overlay.cards.Deck;
+import overlay.fields.Field;
 
 class Player
 {
 	public var name(default, null):String;
-	//var field:Field;
+	var field:Field;
 	public var lifepoints(default, set):Int;
 
 	public var hasLost:Bool = false;
@@ -53,5 +54,10 @@ class Player
 			hand.add(c);
 			deck.remove(c);
 		}
+	}
+
+	public function toString():String
+	{
+		return Std.string(this.name);
 	}
 }
