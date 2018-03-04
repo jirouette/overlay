@@ -46,6 +46,20 @@ class Turn
 			case CHANGE_PHASE(phase):
 				this.change_phase(phase);
 
+			case DIRECT_ATTACK(monster, player):
+				var LP = player.lifepoints;
+				var damage = switch(monster.ATK.value)
+				{
+					case UNKNOWN:
+						0;
+					case INFINITE:
+						player.lifepoints;
+					case VALUE(v):
+						v;
+				};
+				player.lifepoints -= damage;
+				trace(player + ": LIFE POINTS, "+LP+" - "+damage+" = "+player.lifepoints);
+
 			case NORMAL_SUMMON(monster, zone, index):
 				player.field.getZone(zone, index).card = monster;
 
