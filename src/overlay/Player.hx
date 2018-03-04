@@ -6,7 +6,7 @@ import overlay.fields.Field;
 class Player
 {
 	public var name(default, null):String;
-	var field:Field;
+	public var field:Field;
 	public var lifepoints(default, set):Int;
 
 	public var hasLost:Bool = false;
@@ -19,7 +19,7 @@ class Player
 	public var banished:Deck;
 	public var hand:Deck;
 
-	public function new(name:String, lifepoints:Int = 8000)
+	public function new(name:String, deck_filename:String, lifepoints:Int = 8000)
 	{
 		this.name = name;
 		this.lifepoints = lifepoints;
@@ -31,6 +31,10 @@ class Player
 		this.graveyard = new Deck(GRAVEYARD_DECK, true);
 		this.banished = new Deck(BANISHED_DECK, true);
 		this.hand = new Deck(HAND_DECK);
+
+		this.field = new Field();
+
+		this.deck.load(deck_filename);
 	}
 
 	public function set_lifepoints(lifepoints:Int):Int
