@@ -19,7 +19,15 @@ class Zone
 	public function toString():String
 	{
 		if (this.card != null)
-			return this.card.name + " (" + Std.string(this.position) + ")";
-		return Std.string(this.type) + " (" + Std.string(this.position) + ")";
+		{
+			return this.card.name + (switch(this.type.value)
+			{
+				case MONSTER_ZONE, MAIN_MONSTER_ZONE, EXTRA_MONSTER_ZONE:
+					" (" + Std.string(this.position) + ")";
+				default:
+					"";
+			});
+		}
+		return Std.string(this.type);
 	}
 }
