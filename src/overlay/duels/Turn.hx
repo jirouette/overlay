@@ -46,6 +46,9 @@ class Turn
 			case CHANGE_PHASE(phase):
 				this.change_phase(phase);
 
+			case NORMAL_SUMMON(monster, zone, index):
+				player.field.getZone(zone, index).card = monster;
+
 			default:
 				return;
 		}
