@@ -2,6 +2,7 @@ package overlay.duels;
 
 import overlay.duels.Action;
 import overlay.duels.Phase;
+import overlay.Duel;
 
 typedef PlayerAction = {player:Player, action:Action};
 
@@ -19,10 +20,12 @@ class Turn
 
 	public var current_phase(get, null):Phase;
 	private var phase_index:Int;
+	private var duel:Duel;
 	public var turn_player(default, null):Player;
 
-	public function new(turn_player:Player)
+	public function new(duel:Duel, turn_player:Player)
 	{
+		this.duel = duel;
 		this.turn_player = turn_player;
 		this.current_phase = this.phases[0];
 		this.phase_index = 0;
