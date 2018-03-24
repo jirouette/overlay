@@ -13,18 +13,19 @@ This project is under development. Any screenshot displayed here has been taken 
 
 ### Build
 
-You'll need **Haxe**, the **random** and **thx.text** haxe libraries.
+#### Without Docker
+
 ```bash
-for lib in random thx.text; do haxelib install $lib; done # first run if you don't have them
+yes | haxelib install all # first build
 haxe make.hxml # build
+neko bin/Overlay.n # run
 ```
 
-### Run
-
-Run it with **Neko** (or other platform you can configure in `make.hxml`, as the project is currently platform independant)
+#### With Docker
 
 ```bash
-neko bin/Overlay.n
+docker build . -t overlay # build
+docker run overlay # run
 ```
 
 ## License
